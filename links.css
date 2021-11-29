@@ -1,0 +1,22 @@
+    .friends_links{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .friends_links li{
+        width: 9em;
+        height: 11em;
+        background:#F7F7F7;
+        margin:1em;
+        text-align: center;
+        border-radius:0.5em;
+        webkit-border-radius:0.5em;
+    }
+    
+    .friends_links li a img{
+        width: 9em;
+        height: 9em;
+        border-radius:0.5em 0.5em 0 0;
+    }

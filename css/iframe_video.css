@@ -1,0 +1,15 @@
+/*b站iframe优化*/
+.iframe_video{
+        position:relative;
+        height:0;
+        padding-bottom:56.25%;
+        overflow:hidden
+}
+
+.iframe_video embed,.iframe_video iframe,.iframe_video object{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%
+}
